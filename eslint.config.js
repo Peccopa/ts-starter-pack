@@ -10,7 +10,7 @@ export default defineConfig([
   {
     files: ['**/*.{js,mjs,cjs,ts,tsx,mts,cts}'],
     plugins: { js },
-    extends: ['js/recommended', tseslint.configs.recommended],
+    extends: ['js/recommended', tseslint.configs.strict],
     languageOptions: {
       globals: globals.browser,
     },
