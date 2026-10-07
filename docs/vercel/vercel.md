@@ -69,7 +69,7 @@ dist
 
 ## Что было проверено
 
-В рамках эксперимента `js-starter-pack` был подключён к Vercel.
+В рамках эксперимента `ts-starter-pack` был подключён к Vercel.
 
 Проверено:
 
@@ -82,7 +82,7 @@ dist
 
 Тестовый deployment:
 
-https://js-starter-pack-8rzrld52n-peccopa1.vercel.app
+https://ts-starter-pack.vercel.app/
 
 > URL относится к конкретному экспериментальному deployment и со временем может измениться или перестать быть доступным.
 
