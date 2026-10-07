@@ -1,7 +1,7 @@
 <!-- # Starter Pack JS -->
 
 <p align="center">
-  <img src="./js-starter-pack.webp" width="800" alt="Starter Pack JS" />
+  <img src="./ts-starter-pack.webp" width="800" alt="Starter Pack JS" />
 </p>
 
 Шаблон для создания frontend-проектов на JavaScript.
