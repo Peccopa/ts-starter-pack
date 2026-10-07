@@ -1,10 +1,10 @@
-<!-- # Starter Pack JS -->
+<!-- # Starter Pack TS -->
 
 <p align="center">
-  <img src="./ts-starter-pack.webp" width="800" alt="Starter Pack JS" />
+  <img src="./ts-starter-pack.webp" width="800" alt="Starter Pack TS" />
 </p>
 
-Шаблон для создания frontend-проектов на JavaScript.
+Шаблон для создания frontend-проектов на TypeScript.
 
 Включает базовую настройку инструментов разработки:
 
@@ -25,7 +25,7 @@
 
 # Стек
 
-- JavaScript
+- TypeScript
 - Vite
 - ESLint
 - Prettier
@@ -65,6 +65,12 @@ ESLint:
 
 ```
 npm run lint
+```
+
+Проверка типов:
+
+```
+npm run check
 ```
 
 Форматирование:
@@ -147,10 +153,10 @@ src/
 ├── features/
 ├── entities/
 ├── shared/
-└── main.js
+└── main.ts
 ```
 
-`main.js` является точкой входа приложения.
+`main.ts` является точкой входа приложения.
 
 Подробная памятка по FSD находится в [`docs/fsd/fsd.md`](docs/fsd/fsd.md).
 
@@ -212,6 +218,7 @@ src/
 - ESLint (`eslint --fix`)
 - Prettier (`prettier --write`)
 - Commitlint (проверка сообщения коммита)
+- TypeScript (`tsc --noEmit`)
 
 Используется соглашение **Conventional Commits**.
 
@@ -262,6 +269,7 @@ changes
 | npm run format     | форматирование     |
 | npm run test       | запуск тестов      |
 | npm run test:watch | запуск тестов      |
+| npm run check      | проверка типов     |
 
 ---
 
